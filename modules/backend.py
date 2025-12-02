@@ -242,14 +242,14 @@ def market_prices(start_date: str=None, end_date: str=None, tickers: list=None) 
     return df
 
 def tickers_by_issues(issuer:str) -> pd.DataFrame:
-    ''''
+    '''
     Retorna el listado de instrumentos segun el emisor indicado
 
     issuer (str): 
-    Emisor
+        Emisor
 
     Return(pd.DataFrame): tickers del emisor
-    ''''
+    '''
 
     query = f"""
     SELECT DISTINCT

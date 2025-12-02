@@ -13,3 +13,4 @@ git add
 git commit -m "rama actualizada"
 
 #actualizar branch
+git push
